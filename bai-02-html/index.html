@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        table, th, td {
+            border: 1px solid #ddd
+        }
+    </style>
+
+    <video src="video/mov_bbb.mp4" width="320", height="240" controls></video>
+
+    <audio src="audio.mp3" controls></audio>
+
+    <table>
+        <thead>
+            <tr>
+                <td>Hàng 1 Cột 1</td>
+                <td>Hàng 1 Cột 2</td>
+                <td>Hàng 1 Cột 3</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Hàng 2 cột 1</td>
+                <td>Hàng 2 cột 2</td>
+                <td>Hàng 2 cột 3</td>
+                <td>
+            </tr>
+        </tbody>
+        gõ nhanh bằng cách tr*3>td*4 và nhấn ctrl + space và có cài đặt extension
+    </table>
+
+
+
+    <!-- Thẻ form -->
+    <form action = 'https://www.w3schools.com/action_page.php' method="post">
+
+        <label for="FullName">Họ và tên:</label>
+        <br/>  
+
+        <input type = 'text' id = 'FullName' name="full_name"/>
+        <br/>
+
+        <label for="Email">Email:</label>
+        <br/>
+
+        <input type="email" id="Email" name="Email"/>
+        <br/>
+
+        <label for="password">Password</label>
+        <br>
+        <input type="password" id="password">
+        <br>
+
+        <label for="number">Nhập số</label>
+        <br>
+        <input type="number" name="Number" id="number">
+        <br>
+
+        <label for="date">Chọn ngày</label>
+        <br>
+        <input type="date" name="date" id="date">
+        <br>
+
+        <label for="time">Chọn ngày</label>
+        <br>
+        <input type="time" name="time" id="time">
+        <br>
+
+    <label for="color">Chọn màu sắc:</label>
+    <br>
+    <select name="color" id="color">
+        <option value="" selected>Chọn màu sắc</option>
+        <option value="yellow">Vàng</option>
+        <option value="red">Đỏ</option>
+        <option value="blue">Xanh</option>
+    </select>
+    <br>
+
+    <label for="note">Ghi chú</label>
+    <textarea type="note" name="note"></textarea>
+
+    <label for="document">Tài liệu</label><br>
+    <input type= "file" id="document" name="Tai_Lieu" />
+    <br>
+
+    <p>Chọn ngôn ngữ kiểu check box</p>
+    <input type="checkbox" id="python" name="ngon_ngu" value="python">
+    <label for="python">Python</label><br>
+    
+    
+    
+    <input type="checkbox" id="c" name="ngon_ngu" value="c">
+    <label for="c">C</label><br>
+
+
+    <input type="checkbox" id="c++" name="ngon_ngu" value="c++">
+    <label for="c++">C++</label><br>
+
+
+
+    <p>Chọn ngôn ngữ kiểu radio</p>
+    <input type="radio" id="python1" name="ngon_ngu" value="python">
+    <label for="python1">Python</label><br>
+    
+    
+    
+    <input type="radio" id="c1" name="ngon_ngu" value="c">
+    <label for="c1">C</label><br>
+
+
+    <input type="radio" id="c++1" name="ngon_ngu" value="c++">
+    <label for="c++1">C++</label><br>
+
+    <input type= "submit" value="Gửi">
+    <br>
+    </form>
+</body>
+</html>
