@@ -88,4 +88,6 @@ ___git merge ten_nhanh___
 - Để merge nhánh khác vào trong nhánh hiện tại  
 
 ___git branch -D ten_nhanh___  
-- Để xóa nhánh 
+- Để xóa nhánh  
+
+<h1>Deploy code lên vercel</h1>
