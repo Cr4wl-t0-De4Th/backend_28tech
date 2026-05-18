@@ -411,12 +411,3 @@ const diem_trung_binh = mon_hoc_6.reduce((total, item) =>{
 }, 0) // trường hợp trên để tính thì ta phải gán giá trị init = 0, nếu không thì biến total sẽ lấy nguyên cái object ở phần tử thứ 0 đi cộng cho cái số điểm ở phần tử thứ 1
 console.log(diem_trung_binh)
 
-
-
-
-
-const string = "Chẳng có gì hết"
-const mang_moi_test = string.split(' ').map((item, index) => {
-    return item.replace(item[0], item[0].toUpperCase())
-})
-console.log(mang_moi_test)
